@@ -1,0 +1,58 @@
+﻿Build started 2013-03-10 14:27:16.
+     1>Project "C:\Users\Zeus\Documents\GitHub\Spelprog._II_HGO_2013\Engine_X\Engine_X\Engine_X.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "../build/Engine_XDebug\Engine_X.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"../build/Engine_XDebug\Engine_X_Debug32.pch" /Fo"../build/Engine_XDebug\\" /Fd"../build/Engine_XDebug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"../build/Engine_XDebug\Engine_X_Debug32.pch" /Fo"../build/Engine_XDebug\\" /Fd"../build/Engine_XDebug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp CameraControl.cpp Dds.cpp Engine_X.cpp EntityManager.cpp Game.cpp MessageSystem.cpp RenderSystem.cpp RenderSystemPrereq.cpp SceneManager.cpp SceneManagerPrereq.cpp ShaderManager.cpp Skydome.cpp TextureManager.cpp uBitmap.cpp uMath.cpp uSystem.cpp
+         uSystem.cpp
+         uMath.cpp
+         uBitmap.cpp
+         TextureManager.cpp
+         Skydome.cpp
+         ShaderManager.cpp
+         SceneManagerPrereq.cpp
+         SceneManager.cpp
+         RenderSystemPrereq.cpp
+         RenderSystem.cpp
+         MessageSystem.cpp
+         Game.cpp
+         EntityManager.cpp
+         Engine_X.cpp
+         Dds.cpp
+         CameraControl.cpp
+         Camera.cpp
+         Generating Code...
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../bin\Engine_X_Debug32.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../bin\Engine_X_Debug32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../bin\Engine_X_Debug32.lib" /MACHINE:X86 ../build/Engine_XDebug\GPIIBase.res
+         ../build/Engine_XDebug\Camera.obj
+         ../build/Engine_XDebug\CameraControl.obj
+         ../build/Engine_XDebug\Dds.obj
+         ../build/Engine_XDebug\Engine_X.obj
+         ../build/Engine_XDebug\EntityManager.obj
+         ../build/Engine_XDebug\Game.obj
+         ../build/Engine_XDebug\MessageSystem.obj
+         ../build/Engine_XDebug\RenderSystem.obj
+         ../build/Engine_XDebug\RenderSystemPrereq.obj
+         ../build/Engine_XDebug\SceneManager.obj
+         ../build/Engine_XDebug\SceneManagerPrereq.obj
+         ../build/Engine_XDebug\ShaderManager.obj
+         ../build/Engine_XDebug\Skydome.obj
+         ../build/Engine_XDebug\stdafx.obj
+         ../build/Engine_XDebug\TextureManager.obj
+         ../build/Engine_XDebug\uBitmap.obj
+         ../build/Engine_XDebug\uMath.obj
+         ../build/Engine_XDebug\uSystem.obj
+         Engine_X.vcxproj -> C:\Users\Zeus\Documents\GitHub\Spelprog._II_HGO_2013\Engine_X\Engine_X\../bin\Engine_X_Debug32.exe
+       FinalizeBuildStatus:
+         Deleting file "../build/Engine_XDebug\Engine_X.unsuccessfulbuild".
+         Touching "../build/Engine_XDebug\Engine_X.lastbuildstate".
+     1>Done Building Project "C:\Users\Zeus\Documents\GitHub\Spelprog._II_HGO_2013\Engine_X\Engine_X\Engine_X.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.78
