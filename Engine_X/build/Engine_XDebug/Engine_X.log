@@ -1,5 +1,5 @@
-﻿Build started 2013-03-10 14:27:16.
-     1>Project "C:\Users\Zeus\Documents\GitHub\Spelprog._II_HGO_2013\Engine_X\Engine_X\Engine_X.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2013-03-20 10:27:03.
+     1>Project "C:\Users\Zeus\Documents\GitHub\Spelprogrammering_2\Engine_X\Engine_X\Engine_X.vcxproj" on node 2 (Build target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
      1>InitializeBuildStatus:
          Creating "../build/Engine_XDebug\Engine_X.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -26,7 +26,7 @@
          Camera.cpp
          Generating Code...
        ResourceCompile:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"../build/Engine_XDebug\GPIIBase.res" GPIIBase.rc 
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../bin\Engine_X_Debug32.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../bin\Engine_X_Debug32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../bin\Engine_X_Debug32.lib" /MACHINE:X86 ../build/Engine_XDebug\GPIIBase.res
          ../build/Engine_XDebug\Camera.obj
@@ -47,12 +47,12 @@
          ../build/Engine_XDebug\uBitmap.obj
          ../build/Engine_XDebug\uMath.obj
          ../build/Engine_XDebug\uSystem.obj
-         Engine_X.vcxproj -> C:\Users\Zeus\Documents\GitHub\Spelprog._II_HGO_2013\Engine_X\Engine_X\../bin\Engine_X_Debug32.exe
+         Engine_X.vcxproj -> C:\Users\Zeus\Documents\GitHub\Spelprogrammering_2\Engine_X\Engine_X\../bin\Engine_X_Debug32.exe
        FinalizeBuildStatus:
          Deleting file "../build/Engine_XDebug\Engine_X.unsuccessfulbuild".
          Touching "../build/Engine_XDebug\Engine_X.lastbuildstate".
-     1>Done Building Project "C:\Users\Zeus\Documents\GitHub\Spelprog._II_HGO_2013\Engine_X\Engine_X\Engine_X.vcxproj" (Build target(s)).
+     1>Done Building Project "C:\Users\Zeus\Documents\GitHub\Spelprogrammering_2\Engine_X\Engine_X\Engine_X.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:06.78
+Time Elapsed 00:00:07.43

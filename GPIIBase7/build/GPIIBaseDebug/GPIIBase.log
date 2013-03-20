@@ -1,0 +1,70 @@
+﻿Build started 2013-03-08 10:44:27.
+     1>Project "C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\GPIIBase\GPIIBase.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Touching "../build/GPIIBaseDebug\GPIIBase.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../bin\GPIIBase_Debug32.exe" /INCREMENTAL /NOLOGO /LIBPATH:../dependencies/ft2/lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../bin\GPIIBase_Debug32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../bin\GPIIBase_Debug32.lib" /MACHINE:X86 ../build/GPIIBaseDebug\GPIIBase.res
+         ../build/GPIIBaseDebug\Application.obj
+         ../build/GPIIBaseDebug\Camera.obj
+         ../build/GPIIBaseDebug\CameraControl.obj
+         ../build/GPIIBaseDebug\Dds.obj
+         ../build/GPIIBaseDebug\FreeTypeFontSystem.obj
+         ../build/GPIIBaseDebug\Heightmap.obj
+         ../build/GPIIBaseDebug\MessageSystem.obj
+         ../build/GPIIBaseDebug\ParticleEffects.obj
+         ../build/GPIIBaseDebug\RenderSystem.obj
+         ../build/GPIIBaseDebug\RenderSystemPrereq.obj
+         ../build/GPIIBaseDebug\SceneManager.obj
+         ../build/GPIIBaseDebug\SceneManagerPrereq.obj
+         ../build/GPIIBaseDebug\ShaderManager.obj
+         ../build/GPIIBaseDebug\Skybox.obj
+         ../build/GPIIBaseDebug\Skydome.obj
+         ../build/GPIIBaseDebug\TextureManager.obj
+         ../build/GPIIBaseDebug\uBitmap.obj
+         ../build/GPIIBaseDebug\uMath.obj
+         ../build/GPIIBaseDebug\UserInterface.obj
+         ../build/GPIIBaseDebug\uSystem.obj
+         ../build/GPIIBaseDebug\winmain.obj
+         ../build/GPIIBaseDebug\stdafx.obj
+     1>freetype2410MT_D.lib(autofit.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freetype2410MT_D.lib(autofit.obj)' or at 'C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\bin\vc100.pdb'; linking object as if no debug info
+     1>freetype2410MT_D.lib(bdf.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freetype2410MT_D.lib(bdf.obj)' or at 'C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\bin\vc100.pdb'; linking object as if no debug info
+     1>freetype2410MT_D.lib(cff.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freetype2410MT_D.lib(cff.obj)' or at 'C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\bin\vc100.pdb'; linking object as if no debug info
+     1>freetype2410MT_D.lib(ftbase.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freetype2410MT_D.lib(ftbase.obj)' or at 'C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\bin\vc100.pdb'; linking object as if no debug info
+     1>freetype2410MT_D.lib(ftdebug.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freetype2410MT_D.lib(ftdebug.obj)' or at 'C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\bin\vc100.pdb'; linking object as if no debug info
+     1>freetype2410MT_D.lib(ftgzip.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freetype2410MT_D.lib(ftgzip.obj)' or at 'C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\bin\vc100.pdb'; linking object as if no debug info
+     1>freetype2410MT_D.lib(ftinit.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freetype2410MT_D.lib(ftinit.obj)' or at 'C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\bin\vc100.pdb'; linking object as if no debug info
+     1>freetype2410MT_D.lib(ftlzw.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freetype2410MT_D.lib(ftlzw.obj)' or at 'C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\bin\vc100.pdb'; linking object as if no debug info
+     1>freetype2410MT_D.lib(ftsystem.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freetype2410MT_D.lib(ftsystem.obj)' or at 'C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\bin\vc100.pdb'; linking object as if no debug info
+     1>freetype2410MT_D.lib(smooth.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freetype2410MT_D.lib(smooth.obj)' or at 'C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\bin\vc100.pdb'; linking object as if no debug info
+     1>freetype2410MT_D.lib(pcf.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freetype2410MT_D.lib(pcf.obj)' or at 'C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\bin\vc100.pdb'; linking object as if no debug info
+     1>freetype2410MT_D.lib(pfr.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freetype2410MT_D.lib(pfr.obj)' or at 'C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\bin\vc100.pdb'; linking object as if no debug info
+     1>freetype2410MT_D.lib(psaux.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freetype2410MT_D.lib(psaux.obj)' or at 'C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\bin\vc100.pdb'; linking object as if no debug info
+     1>freetype2410MT_D.lib(pshinter.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freetype2410MT_D.lib(pshinter.obj)' or at 'C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\bin\vc100.pdb'; linking object as if no debug info
+     1>freetype2410MT_D.lib(psmodule.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freetype2410MT_D.lib(psmodule.obj)' or at 'C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\bin\vc100.pdb'; linking object as if no debug info
+     1>freetype2410MT_D.lib(raster.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freetype2410MT_D.lib(raster.obj)' or at 'C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\bin\vc100.pdb'; linking object as if no debug info
+     1>freetype2410MT_D.lib(sfnt.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freetype2410MT_D.lib(sfnt.obj)' or at 'C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\bin\vc100.pdb'; linking object as if no debug info
+     1>freetype2410MT_D.lib(truetype.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freetype2410MT_D.lib(truetype.obj)' or at 'C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\bin\vc100.pdb'; linking object as if no debug info
+     1>freetype2410MT_D.lib(type1.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freetype2410MT_D.lib(type1.obj)' or at 'C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\bin\vc100.pdb'; linking object as if no debug info
+     1>freetype2410MT_D.lib(type1cid.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freetype2410MT_D.lib(type1cid.obj)' or at 'C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\bin\vc100.pdb'; linking object as if no debug info
+     1>freetype2410MT_D.lib(type42.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freetype2410MT_D.lib(type42.obj)' or at 'C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\bin\vc100.pdb'; linking object as if no debug info
+     1>freetype2410MT_D.lib(winfnt.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freetype2410MT_D.lib(winfnt.obj)' or at 'C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\bin\vc100.pdb'; linking object as if no debug info
+         GPIIBase.vcxproj -> C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\GPIIBase\../bin\GPIIBase_Debug32.exe
+       PostBuildEvent:
+         copy “C:\Program Files (x86)\Windows Kits\8.0\redist\d3d\x86\D3DCompile*.DLL” “C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\bin\”
+         :VCEnd
+         C:\Program Files (x86)\Windows Kits\8.0\redist\d3d\x86\d3dcompiler_46.dll
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "../build/GPIIBaseDebug\GPIIBase.unsuccessfulbuild".
+         Touching "../build/GPIIBaseDebug\GPIIBase.lastbuildstate".
+     1>Done Building Project "C:\Users\Zeus\Desktop\School\spelprogrammering2\GPIIBase7\GPIIBase\GPIIBase.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.07

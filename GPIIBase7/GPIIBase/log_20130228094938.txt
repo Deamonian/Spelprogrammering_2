@@ -1,0 +1,2 @@
+[20130228 09:49:38.447] Logfile opening
+[20130228 09:49:44.001] Logfile closing

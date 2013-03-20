@@ -1,0 +1,8 @@
+width 1440
+height 900
+m_yaw 0.022
+m_pitch -0.022
+m_sensitivity 50.0
+c_speed 50.0
+c_znear 0.5
+c_zfar 1000.0
